@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2C148A2503E52300C5A781 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C14892503E52300C5A781 /* Webservice.swift */; };
+		8C2C148C2503EA9D00C5A781 /* DrinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C148B2503EA9D00C5A781 /* DrinkModel.swift */; };
+		8C2C148E2503EADD00C5A781 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C148D2503EADD00C5A781 /* CategoryModel.swift */; };
 		8C43E11825026539007DA42B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43E11725026539007DA42B /* AppDelegate.swift */; };
 		8C43E11A25026539007DA42B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43E11925026539007DA42B /* SceneDelegate.swift */; };
 		8C43E11C25026539007DA42B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43E11B25026539007DA42B /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C2C14892503E52300C5A781 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		8C2C148B2503EA9D00C5A781 /* DrinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkModel.swift; sourceTree = "<group>"; };
+		8C2C148D2503EADD00C5A781 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		8C43E11425026539007DA42B /* CocktailDrinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailDrinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C43E11725026539007DA42B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C43E11925026539007DA42B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,13 +87,24 @@
 		8C2C14872503D45000C5A781 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8C2C148B2503EA9D00C5A781 /* DrinkModel.swift */,
+				8C2C148D2503EADD00C5A781 /* CategoryModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		8C2C14882503E4DE00C5A781 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8C2C14892503E52300C5A781 /* Webservice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		8C43E10B25026539007DA42B = {
 			isa = PBXGroup;
 			children = (
+				8C2C14882503E4DE00C5A781 /* Services */,
 				8C2C14872503D45000C5A781 /* Models */,
 				8C43E11625026539007DA42B /* CocktailDrinks */,
 				8C43E1302502653E007DA42B /* CocktailDrinksTests */,
@@ -272,7 +289,10 @@
 			files = (
 				8C43E12225026539007DA42B /* CocktailDrinks.xcdatamodeld in Sources */,
 				8C43E11C25026539007DA42B /* ViewController.swift in Sources */,
+				8C2C148C2503EA9D00C5A781 /* DrinkModel.swift in Sources */,
 				8C43E11825026539007DA42B /* AppDelegate.swift in Sources */,
+				8C2C148E2503EADD00C5A781 /* CategoryModel.swift in Sources */,
+				8C2C148A2503E52300C5A781 /* Webservice.swift in Sources */,
 				8C43E11A25026539007DA42B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
