@@ -13,6 +13,6 @@ struct Category:Codable {
 }
 
 struct Categories<T: Codable>:Codable  {
-    var result: [Category]
+    var drinks: [Category]
 }
 

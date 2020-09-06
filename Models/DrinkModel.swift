@@ -11,8 +11,10 @@ import Foundation
 struct Drink:Codable {
     var strDrink: String
     var strDrinkThumb: String
+    
 }
 
 struct DrinksList<T: Codable>:Codable {
-    var result: [Drink]
+    var drinks: [Drink]
+
 }

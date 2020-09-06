@@ -19,6 +19,7 @@
 		8C43E1272502653E007DA42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C43E1252502653E007DA42B /* LaunchScreen.storyboard */; };
 		8C43E1322502653E007DA42B /* CocktailDrinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43E1312502653E007DA42B /* CocktailDrinksTests.swift */; };
 		8C43E13D2502653E007DA42B /* CocktailDrinksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43E13C2502653E007DA42B /* CocktailDrinksUITests.swift */; };
+		8C463402250526CC00229B5B /* DrinksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C463401250526CC00229B5B /* DrinksViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		8C43E1382502653E007DA42B /* CocktailDrinksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocktailDrinksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C43E13C2502653E007DA42B /* CocktailDrinksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDrinksUITests.swift; sourceTree = "<group>"; };
 		8C43E13E2502653E007DA42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C463401250526CC00229B5B /* DrinksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,8 @@
 		8C43E10B25026539007DA42B = {
 			isa = PBXGroup;
 			children = (
+				8C46340325054D3900229B5B /* Controllers */,
+				8C463400250526B100229B5B /* ViewModels */,
 				8C2C14882503E4DE00C5A781 /* Services */,
 				8C2C14872503D45000C5A781 /* Models */,
 				8C43E11625026539007DA42B /* CocktailDrinks */,
@@ -128,7 +132,6 @@
 			children = (
 				8C43E11725026539007DA42B /* AppDelegate.swift */,
 				8C43E11925026539007DA42B /* SceneDelegate.swift */,
-				8C43E11B25026539007DA42B /* ViewController.swift */,
 				8C43E11D25026539007DA42B /* Main.storyboard */,
 				8C43E1232502653E007DA42B /* Assets.xcassets */,
 				8C43E1252502653E007DA42B /* LaunchScreen.storyboard */,
@@ -154,6 +157,22 @@
 				8C43E13E2502653E007DA42B /* Info.plist */,
 			);
 			path = CocktailDrinksUITests;
+			sourceTree = "<group>";
+		};
+		8C463400250526B100229B5B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C463401250526CC00229B5B /* DrinksViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C46340325054D3900229B5B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C43E11B25026539007DA42B /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +313,7 @@
 				8C2C148E2503EADD00C5A781 /* CategoryModel.swift in Sources */,
 				8C2C148A2503E52300C5A781 /* Webservice.swift in Sources */,
 				8C43E11A25026539007DA42B /* SceneDelegate.swift in Sources */,
+				8C463402250526CC00229B5B /* DrinksViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
